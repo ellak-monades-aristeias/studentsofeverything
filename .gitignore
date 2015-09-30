@@ -1,0 +1,21 @@
+# ignore all subfolders in drupal7
+drupal7/*
+!drupal7/soe_drupal.make
+
+# follow specific subfolders
+!drupal7/sites
+
+drupal7/sites/*
+!drupal7/sites/all
+drupal7/sites/all/*
+
+!drupal7/sites/all/modules
+drupal7/sites/all/modules/*
+!drupal7/sites/all/modules/soe_modules
+!drupal7/sites/all/modules/soe_features
+!drupal7/sites/all/modules/contrib
+
+!drupal7/sites/all/themes
+drupal7/sites/all/themes/*
+drupal7/sites/all/themes/soe
+
