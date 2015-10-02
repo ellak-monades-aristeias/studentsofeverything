@@ -35,6 +35,9 @@ projects[diff][version] = "3.2"
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.6"
 
+projects[flag][subdir] = "contrib"
+projects[flag][version] = "3.6"
+
 projects[i18n][subdir] = "contrib"
 projects[i18n][version] = "1.13"
 
@@ -87,4 +90,11 @@ projects[xautoload][version] = "5.5"
 projects[adminimal_theme][version] = "1.22"
 
 projects[bootstrap][version] = "3.0"
+
+; Modules
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+projects[soe_ct_project][download][type] = ""
+projects[soe_ct_project][download][url] = ""
+projects[soe_ct_project][type] = "module"
 
