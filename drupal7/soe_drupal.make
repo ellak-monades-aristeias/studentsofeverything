@@ -14,6 +14,9 @@ projects[admin_language][version] = "1.0-beta1"
 projects[adminimal_admin_menu][subdir] = "contrib"
 projects[adminimal_admin_menu][version] = "1.6"
 
+projects[avatar_selection][subdir] = "contrib"
+projects[avatar_selection][version] = "1.1"
+
 projects[block_class][subdir] = "contrib"
 projects[block_class][version] = "2.1"
 
@@ -22,6 +25,9 @@ projects[ctools][version] = "1.9"
 
 projects[configuration][subdir] = "contrib"
 projects[configuration][version] = "2.0-alpha3"
+
+projects[date][subdir] = "contrib"
+projects[date][version] = "2.9"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
@@ -40,6 +46,9 @@ projects[jquery_update][version] = "3.0-alpha2"
 
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "2.0"
+
+projects[multiple_registration][subdir] = "contrib"
+projects[multiple_registration][version] = "1.0"
 
 projects[panels_bootstrap_layouts][subdir] = "contrib"
 projects[panels_bootstrap_layouts][version] = "3.0"
