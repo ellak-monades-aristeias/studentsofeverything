@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_Flag_Editor_Pick feature.
+ */
+
+include_once 'soe_flag_editor_pick.features.inc';
