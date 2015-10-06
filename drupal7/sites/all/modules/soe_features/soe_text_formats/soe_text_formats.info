@@ -1,0 +1,11 @@
+name = soe_Text_Formats
+core = 7.x
+package = Content Editing
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = php
+features[features_api][] = api:2
+features[filter][] = filtered_html
+features[filter][] = full_html
+features[filter][] = php_code
+features[filter][] = plain_text
