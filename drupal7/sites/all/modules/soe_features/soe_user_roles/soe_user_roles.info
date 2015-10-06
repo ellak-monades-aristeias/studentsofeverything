@@ -1,6 +1,6 @@
-name = SoE_User_Roles
+name = soe_User_Roles
 core = 7.x
-package = Features
+package = Users
 dependencies[] = features
 features[features_api][] = api:2
 features[user_role][] = administrator
