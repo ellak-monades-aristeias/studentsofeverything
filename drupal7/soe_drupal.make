@@ -26,6 +26,9 @@ projects[block_class][version] = "2.1"
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.9"
 
+projects[ckeditor][subdir] = "contrib"
+projects[ckeditor][version] = "1.16"
+
 projects[configuration][subdir] = "contrib"
 projects[configuration][version] = "2.0-alpha3"
 
@@ -53,6 +56,9 @@ projects[i18n][version] = "1.13"
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.5"
 
+projects[image_field_caption][subdir] = "contrib"
+projects[image_field_caption][version] = "2.1"
+
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "3.0-alpha2"
 
@@ -77,8 +83,14 @@ projects[pathauto][version] = "1.2"
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.9"
 
+projects[session_api][subdir] = "contrib"
+projects[session_api][version] = "1.0-rc1"
+
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.6"
+
+projects[translation_helpers][subdir] = "contrib"
+projects[translation_helpers][version] = "1.0"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.2"
@@ -106,3 +118,4 @@ projects[adminimal_theme][version] = "1.22"
 
 projects[bootstrap][version] = "3.0"
 
+; Modules
