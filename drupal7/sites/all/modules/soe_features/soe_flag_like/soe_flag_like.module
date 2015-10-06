@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_Flag_Like feature.
+ */
+
+include_once 'soe_flag_like.features.inc';
