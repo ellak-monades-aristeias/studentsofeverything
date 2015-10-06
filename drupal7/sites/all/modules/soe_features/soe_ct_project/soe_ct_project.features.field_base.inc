@@ -54,6 +54,29 @@ function soe_ct_project_field_default_field_bases() {
     'type' => 'file',
   );
 
+  // Exported field_base: 'field_audio_files'
+  $field_bases['field_audio_files'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_audio_files',
+    'indexes' => array(
+      'fid' => array(
+        0 => 'fid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'file',
+    'settings' => array(
+      'display_default' => 1,
+      'display_field' => 1,
+      'uri_scheme' => 'public',
+    ),
+    'translatable' => 0,
+    'type' => 'file',
+  );
+
   // Exported field_base: 'field_difficulty_level'
   $field_bases['field_difficulty_level'] = array(
     'active' => 1,
@@ -204,8 +227,8 @@ function soe_ct_project_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         1 => 'draft',
-        2 => 'pending',
-        3 => 'online',
+        2 => 'submitted',
+        3 => 'approved',
       ),
       'allowed_values_function' => '',
     ),
@@ -213,34 +236,31 @@ function soe_ct_project_field_default_field_bases() {
     'type' => 'list_text',
   );
 
-  // Exported field_base: 'field_suitable_ages_end'
-  $field_bases['field_suitable_ages_end'] = array(
+  // Exported field_base: 'field_suitable_ages'
+  $field_bases['field_suitable_ages'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => 5,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_suitable_ages_end',
-    'indexes' => array(),
+    'field_name' => 'field_suitable_ages',
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
     'locked' => 0,
-    'module' => 'number',
-    'settings' => array(),
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        9 => '6-9',
+        12 => '10-12',
+        15 => '13-15',
+        99 => 'up to 99',
+      ),
+      'allowed_values_function' => '',
+    ),
     'translatable' => 0,
-    'type' => 'number_integer',
-  );
-
-  // Exported field_base: 'field_suitable_ages_start'
-  $field_bases['field_suitable_ages_start'] = array(
-    'active' => 1,
-    'cardinality' => 1,
-    'deleted' => 0,
-    'entity_types' => array(),
-    'field_name' => 'field_suitable_ages_start',
-    'indexes' => array(),
-    'locked' => 0,
-    'module' => 'number',
-    'settings' => array(),
-    'translatable' => 0,
-    'type' => 'number_integer',
+    'type' => 'list_text',
   );
 
   // Exported field_base: 'field_themes'

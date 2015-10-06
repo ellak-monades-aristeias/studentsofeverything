@@ -40,7 +40,7 @@ function soe_ct_project_field_default_field_instances() {
     'required' => 1,
     'settings' => array(
       'display_summary' => 0,
-      'text_processing' => 0,
+      'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -52,6 +52,90 @@ function soe_ct_project_field_default_field_instances() {
       ),
       'type' => 'text_textarea_with_summary',
       'weight' => 31,
+    ),
+  );
+
+  // Exported field_instance: 'node-project-field_attachments'
+  $field_instances['node-project-field_attachments'] = array(
+    'bundle' => 'project',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'file',
+        'settings' => array(),
+        'type' => 'file_default',
+        'weight' => 10,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_attachments',
+    'label' => 'attachments',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 0,
+      'file_directory' => 'public://docs',
+      'file_extensions' => 'txt pdf',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'file',
+      'settings' => array(
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'file_generic',
+      'weight' => 41,
+    ),
+  );
+
+  // Exported field_instance: 'node-project-field_audio_files'
+  $field_instances['node-project-field_audio_files'] = array(
+    'bundle' => 'project',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'audiofield',
+        'settings' => array(),
+        'type' => 'audiofield_embedded',
+        'weight' => 14,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_audio_files',
+    'label' => 'Audio files',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 1,
+      'file_directory' => '',
+      'file_extensions' => 'mp3',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'audiofield',
+      'settings' => array(
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'audiofield_widget',
+      'weight' => 45,
     ),
   );
 
@@ -168,6 +252,7 @@ function soe_ct_project_field_default_field_instances() {
       'default_image' => 0,
       'file_directory' => 'sites/default/files/projects/[current-user:uid]',
       'file_extensions' => 'png gif jpg jpeg',
+      'image_field_caption' => 0,
       'max_filesize' => '',
       'max_resolution' => '',
       'min_resolution' => '',
@@ -223,6 +308,57 @@ function soe_ct_project_field_default_field_instances() {
       ),
       'type' => 'text_textarea',
       'weight' => 36,
+    ),
+  );
+
+  // Exported field_instance: 'node-project-field_other_images'
+  $field_instances['node-project-field_other_images'] = array(
+    'bundle' => 'project',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
+        'weight' => 4,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_other_images',
+    'label' => 'other_images',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 1,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'image_field_caption' => 1,
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 35,
     ),
   );
 
@@ -307,6 +443,43 @@ function soe_ct_project_field_default_field_instances() {
       'settings' => array(),
       'type' => 'options_buttons',
       'weight' => 43,
+    ),
+  );
+
+  // Exported field_instance: 'node-project-field_suitable_ages'
+  $field_instances['node-project-field_suitable_ages'] = array(
+    'bundle' => 'project',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 13,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_suitable_ages',
+    'label' => 'suitable ages',
+    'required' => 1,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_buttons',
+      'weight' => 44,
     ),
   );
 
@@ -396,14 +569,18 @@ function soe_ct_project_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Audio files');
   t('Short Description (max 100 words)');
   t('Video links');
+  t('attachments');
   t('difficulty_level');
   t('instructions');
   t('main_image');
   t('material_needed');
+  t('other_images');
   t('parental_presence_necessary');
   t('state');
+  t('suitable ages');
   t('themes');
 
   return $field_instances;
