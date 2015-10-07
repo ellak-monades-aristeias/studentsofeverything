@@ -1,0 +1,9 @@
+name = soe_Rule_Project_Completed_Add_Points_Badge_to_User
+core = 7.x
+package = Rules
+dependencies[] = entity
+dependencies[] = php
+dependencies[] = rules
+dependencies[] = rules_conditional
+features[features_api][] = api:2
+features[rules_config][] = rules_project_completed_add_points_badge_to_user
