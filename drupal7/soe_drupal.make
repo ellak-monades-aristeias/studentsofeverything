@@ -41,6 +41,12 @@ projects[diff][version] = "3.2"
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.6"
 
+projects[entityreference][subdir] = "contrib"
+projects[entityreference][version] = "1.1"
+
+projects[entityreference_prepopulate][subdir] = "contrib"
+projects[entityreference_prepopulate][version] = "1.5"
+
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.6"
 
@@ -80,8 +86,14 @@ projects[panels_bootstrap_styles][version] = "1.0-alpha1"
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
+projects[prepopulate][subdir] = "contrib"
+projects[prepopulate][version] = "2.0"
+
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.9"
+
+projects[rules_conditional][subdir] = "contrib"
+projects[rules_conditional][version] = "1.0-beta2"
 
 projects[session_api][subdir] = "contrib"
 projects[session_api][version] = "1.0-rc1"
@@ -118,4 +130,3 @@ projects[adminimal_theme][version] = "1.22"
 
 projects[bootstrap][version] = "3.0"
 
-; Modules
