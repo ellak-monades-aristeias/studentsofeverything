@@ -1,0 +1,7 @@
+name = soe_rule_redirect_to_user_page_after_login
+core = 7.x
+package = Rules
+dependencies[] = entity
+dependencies[] = rules
+features[features_api][] = api:2
+features[rules_config][] = rules_after_login_redirect_to_user_page
