@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_CT_myProject feature.
+ */
+
+include_once 'soe_ct_myproject.features.inc';
