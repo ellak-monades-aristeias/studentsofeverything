@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_panels_ page_handler_node_view_project feature.
+ */
+
+include_once 'soe_panels__page_handler_node_view_project.features.inc';
