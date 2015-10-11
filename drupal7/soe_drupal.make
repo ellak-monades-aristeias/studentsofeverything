@@ -84,10 +84,13 @@ projects[panels_bootstrap_styles][subdir] = "contrib"
 projects[panels_bootstrap_styles][version] = "1.0-alpha1"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.2"
+projects[pathauto][version] = "1.3"
 
 projects[prepopulate][subdir] = "contrib"
 projects[prepopulate][version] = "2.0"
+
+projects[profile2][subdir] = "contrib"
+projects[profile2][version] = "1.3"
 
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.9"
