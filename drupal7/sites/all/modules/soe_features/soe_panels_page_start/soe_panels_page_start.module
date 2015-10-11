@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_panels_page_start feature.
+ */
+
+include_once 'soe_panels_page_start.features.inc';
