@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_panels_page_submitted_projects feature.
+ */
+
+include_once 'soe_panels_page_submitted_projects.features.inc';
