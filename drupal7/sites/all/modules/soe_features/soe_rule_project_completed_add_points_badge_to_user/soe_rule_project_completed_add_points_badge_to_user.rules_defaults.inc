@@ -14,7 +14,7 @@ function soe_rule_project_completed_add_points_badge_to_user_default_rules_confi
       "PLUGIN" : "reaction rule",
       "OWNER" : "rules",
       "TAGS" : [ "badge", "points" ],
-      "REQUIRES" : [ "rules", "php", "rules_conditional" ],
+      "REQUIRES" : [ "rules", "flag", "rules_conditional" ],
       "ON" : { "node_insert--myproject" : { "bundle" : "myproject" } },
       "IF" : [
         { "entity_has_field" : {
@@ -27,6 +27,12 @@ function soe_rule_project_completed_add_points_badge_to_user_default_rules_confi
             "entity" : [ "node:field-project-reference" ],
             "field" : "field_difficulty_level"
           }
+        },
+        { "flag_flagged_node" : {
+            "flag" : "to_do_project",
+            "node" : [ "node:field-project-reference" ],
+            "flagging_user" : [ "site:current-user" ]
+          }
         }
       ],
       "DO" : [
@@ -38,10 +44,7 @@ function soe_rule_project_completed_add_points_badge_to_user_default_rules_confi
         { "variable_add" : {
             "USING" : {
               "type" : "integer",
-              "value" : {
-                "select" : "node:field-project-reference:field-difficulty-level",
-                "php" : { "code" : "return 10 * $value; " }
-              }
+              "value" : [ "node:field-project-reference:field-difficulty-level" ]
             },
             "PROVIDE" : { "variable_added" : { "total_earned_points" : "Added variable" } }
           }
@@ -110,6 +113,23 @@ function soe_rule_project_completed_add_points_badge_to_user_default_rules_confi
                 }
               }
             ]
+          }
+        },
+        { "data_set" : {
+            "data" : [ "node:field-themes" ],
+            "value" : [ "node:field-project-reference:field-themes" ]
+          }
+        },
+        { "data_set" : {
+            "data" : [ "node:field-difficulty-level" ],
+            "value" : [ "node:field-project-reference:field-difficulty-level" ]
+          }
+        },
+        { "flag_unflagnode" : {
+            "flag" : "to_do_project",
+            "node" : [ "node:field-project-reference" ],
+            "flagging_user" : [ "node:author" ],
+            "permission_check" : "1"
           }
         }
       ]

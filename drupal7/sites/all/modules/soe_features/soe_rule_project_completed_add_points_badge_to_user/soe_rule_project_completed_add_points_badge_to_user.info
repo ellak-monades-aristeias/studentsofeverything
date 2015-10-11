@@ -2,6 +2,7 @@ name = soe_Rule_Project_Completed_Add_Points_Badge_to_User
 core = 7.x
 package = Rules
 dependencies[] = entity
+dependencies[] = flag
 dependencies[] = php
 dependencies[] = rules
 dependencies[] = rules_conditional
