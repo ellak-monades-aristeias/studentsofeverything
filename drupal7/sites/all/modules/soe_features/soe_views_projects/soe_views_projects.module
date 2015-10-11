@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_Views_projects feature.
+ */
+
+include_once 'soe_views_projects.features.inc';
