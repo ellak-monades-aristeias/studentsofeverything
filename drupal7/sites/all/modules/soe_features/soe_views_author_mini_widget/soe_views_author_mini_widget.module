@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_Views_author_mini_widget feature.
+ */
+
+include_once 'soe_views_author_mini_widget.features.inc';
