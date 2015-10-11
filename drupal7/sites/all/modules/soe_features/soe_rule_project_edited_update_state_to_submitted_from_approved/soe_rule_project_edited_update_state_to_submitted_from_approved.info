@@ -1,0 +1,7 @@
+name = soe_Rule_project_edited_update_state_to_submitted_from_approved
+core = 7.x
+package = Rules
+dependencies[] = entity
+dependencies[] = rules
+features[features_api][] = api:2
+features[rules_config][] = rules_project_edited_update_state_to_submitted_from_approved
