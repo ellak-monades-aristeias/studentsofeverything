@@ -4,7 +4,6 @@ package = Users
 dependencies[] = date
 dependencies[] = features
 dependencies[] = list
-dependencies[] = multiple_registration
 dependencies[] = number
 dependencies[] = options
 dependencies[] = soe_user_roles

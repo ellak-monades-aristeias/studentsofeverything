@@ -31,6 +31,7 @@ function soe_user_fields_field_default_field_bases() {
         'second' => 0,
         'year' => 'year',
       ),
+      'profile2_private' => FALSE,
       'timezone_db' => '',
       'todate' => '',
       'tz_handling' => 'none',
@@ -46,6 +47,9 @@ function soe_user_fields_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_family_name',
+    'field_permissions' => array(
+      'type' => 0,
+    ),
     'indexes' => array(
       'format' => array(
         0 => 'format',
@@ -55,6 +59,7 @@ function soe_user_fields_field_default_field_bases() {
     'module' => 'text',
     'settings' => array(
       'max_length' => 50,
+      'profile2_private' => 0,
     ),
     'translatable' => 0,
     'type' => 'text',
@@ -67,6 +72,9 @@ function soe_user_fields_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_first_name',
+    'field_permissions' => array(
+      'type' => 0,
+    ),
     'indexes' => array(
       'format' => array(
         0 => 'format',
@@ -76,6 +84,7 @@ function soe_user_fields_field_default_field_bases() {
     'module' => 'text',
     'settings' => array(
       'max_length' => 100,
+      'profile2_private' => 0,
     ),
     'translatable' => 0,
     'type' => 'text',
@@ -97,6 +106,7 @@ function soe_user_fields_field_default_field_bases() {
     'module' => 'text',
     'settings' => array(
       'max_length' => 255,
+      'profile2_private' => 0,
     ),
     'translatable' => 0,
     'type' => 'text',
@@ -122,6 +132,7 @@ function soe_user_fields_field_default_field_bases() {
         1 => 'Yes',
       ),
       'allowed_values_function' => '',
+      'profile2_private' => 0,
     ),
     'translatable' => 0,
     'type' => 'list_boolean',
@@ -134,10 +145,15 @@ function soe_user_fields_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_point_makes',
+    'field_permissions' => array(
+      'type' => 2,
+    ),
     'indexes' => array(),
     'locked' => 0,
     'module' => 'number',
-    'settings' => array(),
+    'settings' => array(
+      'profile2_private' => FALSE,
+    ),
     'translatable' => 0,
     'type' => 'number_integer',
   );
@@ -149,10 +165,15 @@ function soe_user_fields_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_points_games',
+    'field_permissions' => array(
+      'type' => 2,
+    ),
     'indexes' => array(),
     'locked' => 0,
     'module' => 'number',
-    'settings' => array(),
+    'settings' => array(
+      'profile2_private' => FALSE,
+    ),
     'translatable' => 0,
     'type' => 'number_integer',
   );
@@ -164,10 +185,15 @@ function soe_user_fields_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_points_stories',
+    'field_permissions' => array(
+      'type' => 2,
+    ),
     'indexes' => array(),
     'locked' => 0,
     'module' => 'number',
-    'settings' => array(),
+    'settings' => array(
+      'profile2_private' => FALSE,
+    ),
     'translatable' => 0,
     'type' => 'number_integer',
   );
@@ -196,6 +222,7 @@ function soe_user_fields_field_default_field_bases() {
         'Other' => 'Other',
       ),
       'allowed_values_function' => '',
+      'profile2_private' => 0,
     ),
     'translatable' => 0,
     'type' => 'list_text',
