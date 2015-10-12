@@ -50,6 +50,9 @@ projects[entityreference_prepopulate][version] = "1.5"
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.6"
 
+projects[field_permissions][subdir] = "contrib"
+projects[field_permissions][version] = "1.0-beta2"
+
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-beta2"
 
@@ -74,9 +77,6 @@ projects[media][version] = "2.0-beta1"
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "2.0"
 
-projects[multiple_registration][subdir] = "contrib"
-projects[multiple_registration][version] = "1.0"
-
 projects[panels_bootstrap_layouts][subdir] = "contrib"
 projects[panels_bootstrap_layouts][version] = "3.0"
 
@@ -89,8 +89,14 @@ projects[pathauto][version] = "1.3"
 projects[prepopulate][subdir] = "contrib"
 projects[prepopulate][version] = "2.0"
 
+projects[prlp][subdir] = "contrib"
+projects[prlp][version] = "1.1"
+
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
+
+projects[profile2_regpath][subdir] = "contrib"
+projects[profile2_regpath][version] = "1.12"
 
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.9"
