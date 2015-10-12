@@ -84,6 +84,9 @@ function soe_ct_project_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_difficulty_level',
+    'field_permissions' => array(
+      'type' => 2,
+    ),
     'indexes' => array(
       'value' => array(
         0 => 'value',
@@ -98,6 +101,7 @@ function soe_ct_project_field_default_field_bases() {
         3 => 'Hard',
       ),
       'allowed_values_function' => '',
+      'profile2_private' => FALSE,
     ),
     'translatable' => 0,
     'type' => 'list_integer',
@@ -334,6 +338,9 @@ function soe_ct_project_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_themes',
+    'field_permissions' => array(
+      'type' => 2,
+    ),
     'indexes' => array(
       'tid' => array(
         0 => 'tid',
@@ -349,6 +356,7 @@ function soe_ct_project_field_default_field_bases() {
         ),
       ),
       'options_list_callback' => 'i18n_taxonomy_allowed_values',
+      'profile2_private' => FALSE,
     ),
     'translatable' => 0,
     'type' => 'taxonomy_term_reference',
