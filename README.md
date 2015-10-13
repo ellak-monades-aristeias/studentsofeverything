@@ -26,6 +26,7 @@ Online πλατφόρμα που περιλαμβάνει α) ψηφιακό α�
 
 **Web Address του Students of Everything**
 http://www.studentsofeverything.cc (online σε alpha έκδοση)
+https://invis.io/7X4J4EDP9 (interface design για beta version)
 
 **Χρονοδιάγραμμα - Wiki**
 Η Alpha stage της πλατοφόρμας είναι προγραμματισμένη να ολοκληρωθεί σε 3 εβδομάδες, από τις 28/09/2015-15/10/2015 και μπορείτε να δείτε την εβδομαδιαία πρόοδό της στο Wiki.
