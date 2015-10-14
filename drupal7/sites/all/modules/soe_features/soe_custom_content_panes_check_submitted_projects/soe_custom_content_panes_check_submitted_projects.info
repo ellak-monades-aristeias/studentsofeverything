@@ -1,3 +1,4 @@
+name = soe_custom_content_panes_check_submitted_projects
 core = 7.x
 package = Custom Content Panes
 dependencies[] = ctools
