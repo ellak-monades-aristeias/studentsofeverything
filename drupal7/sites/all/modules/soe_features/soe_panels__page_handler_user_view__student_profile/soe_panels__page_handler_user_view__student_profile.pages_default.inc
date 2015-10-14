@@ -41,6 +41,17 @@ function soe_panels__page_handler_user_view__student_profile_default_page_manage
           'context' => 'argument_entity_id:user_1',
           'not' => FALSE,
         ),
+        1 => array(
+          'name' => 'compare_users',
+          'settings' => array(
+            'equality' => '1',
+          ),
+          'context' => array(
+            0 => 'argument_entity_id:user_1',
+            1 => 'logged-in-user',
+          ),
+          'not' => FALSE,
+        ),
       ),
       'logic' => 'and',
     ),
@@ -85,36 +96,35 @@ array_multisort($ar1, SORT_DESC, $ar2, SORT_DESC);
 
 //echo $ar2[0];
 
-$games = "games";
-$stories = "stories";
-$makes = "makes";
+if ( $ar1[0]!=0 ) {
+  $games = "games";
+  $stories = "stories";
+  $makes = "makes";
 
-if (strcmp($ar2[0], $games) == 0) {
-  echo "<p>I am good at games</p>";
+  if (strcmp($ar2[0], $games) == 0) {
+    echo "<p>I am good at games</p>";
+  }
+
+  if (strcmp($ar2[0], $stories) == 0) {
+    echo "<p>I am good at stories</p>";
+  }
+
+  if (strcmp($ar2[0], $makes) == 0) {
+    echo "<p>I am good at makes</p>";
+  }
+
+  if (strcmp($ar2[2], $games) == 0) {
+    echo "<p>Get better at games! <br>Try these <a href=\\"/themes/games\\">game projects</a></p>";
+  }
+
+  if (strcmp($ar2[2], $stories) == 0) {
+    echo "<p>Get better at stories!<br> Try these <a href=\\"/themes/stories\\">story projects</a></p>";
+  }
+
+  if (strcmp($ar2[2], $makes) == 0) {
+    echo "<p>Get better at makes! <br>Try these <a href=\\"/themes/makes\\">make projects</a></p>";
+  }
 }
-
-if (strcmp($ar2[0], $stories) == 0) {
-  echo "<p>I am good at stories</p>";
-}
-
-if (strcmp($ar2[0], $makes) == 0) {
-  echo "<p>I am good at makes</p>";
-}
-
-if (strcmp($ar2[2], $games) == 0) {
-  echo "<p>Get better at games! <br>Try these <a href=\\"/themes/games\\">game projects</a></p>";
-}
-
-if (strcmp($ar2[2], $stories) == 0) {
-  echo "<p>Get better at stories!<br> Try these <a href=\\"/themes/stories\\">story projects</a></p>";
-}
-
-if (strcmp($ar2[2], $makes) == 0) {
-  echo "<p>Get better at makes! <br>Try these <a href=\\"/themes/makes\\">make projects</a></p>";
-}
-
-
-
 ?>',
       'format' => 'php_code',
       'substitute' => 1,
@@ -133,6 +143,35 @@ if (strcmp($ar2[2], $makes) == 0) {
     $pane->uuid = '7ead3bc9-eaa1-4038-89f4-28681119224e';
     $display->content['new-7ead3bc9-eaa1-4038-89f4-28681119224e'] = $pane;
     $display->panels['middle'][0] = 'new-7ead3bc9-eaa1-4038-89f4-28681119224e';
+    $pane = new stdClass();
+    $pane->pid = 'new-cb9617ce-a406-4908-aa06-c0d763194a92';
+    $pane->panel = 'middle';
+    $pane->type = 'views_panes';
+    $pane->subtype = 'student_profile_badges-panel_pane_1';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'arguments' => array(
+        'uid' => '%user:uid',
+      ),
+      'override_title' => 1,
+      'override_title_text' => 'My badges',
+      'override_title_heading' => 'h4',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'pull-left col-sm-2',
+    );
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $pane->uuid = 'cb9617ce-a406-4908-aa06-c0d763194a92';
+    $display->content['new-cb9617ce-a406-4908-aa06-c0d763194a92'] = $pane;
+    $display->panels['middle'][1] = 'new-cb9617ce-a406-4908-aa06-c0d763194a92';
     $pane = new stdClass();
     $pane->pid = 'new-c1ceda54-f8bb-4483-8492-d0a83f2b2a6f';
     $pane->panel = 'middle';
@@ -160,11 +199,11 @@ if (strcmp($ar2[2], $makes) == 0) {
       'css_class' => 'col-sm-9',
     );
     $pane->extras = array();
-    $pane->position = 1;
+    $pane->position = 2;
     $pane->locks = array();
     $pane->uuid = 'c1ceda54-f8bb-4483-8492-d0a83f2b2a6f';
     $display->content['new-c1ceda54-f8bb-4483-8492-d0a83f2b2a6f'] = $pane;
-    $display->panels['middle'][1] = 'new-c1ceda54-f8bb-4483-8492-d0a83f2b2a6f';
+    $display->panels['middle'][2] = 'new-c1ceda54-f8bb-4483-8492-d0a83f2b2a6f';
     $pane = new stdClass();
     $pane->pid = 'new-ddb1c16c-90e5-4cf0-8e1b-0f6d5560d6d9';
     $pane->panel = 'middle';
@@ -189,11 +228,11 @@ if (strcmp($ar2[2], $makes) == 0) {
       'css_class' => 'col-sm-9 col-sm-offset-2',
     );
     $pane->extras = array();
-    $pane->position = 2;
+    $pane->position = 3;
     $pane->locks = array();
     $pane->uuid = 'ddb1c16c-90e5-4cf0-8e1b-0f6d5560d6d9';
     $display->content['new-ddb1c16c-90e5-4cf0-8e1b-0f6d5560d6d9'] = $pane;
-    $display->panels['middle'][2] = 'new-ddb1c16c-90e5-4cf0-8e1b-0f6d5560d6d9';
+    $display->panels['middle'][3] = 'new-ddb1c16c-90e5-4cf0-8e1b-0f6d5560d6d9';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
