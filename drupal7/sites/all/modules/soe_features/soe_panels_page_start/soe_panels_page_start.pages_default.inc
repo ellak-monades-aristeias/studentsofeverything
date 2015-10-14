@@ -114,6 +114,48 @@ function soe_panels_page_start_default_page_manager_pages() {
     $display->content['new-c4a00433-e31b-489a-b1f4-bee4321fcc44'] = $pane;
     $display->panels['top'][1] = 'new-c4a00433-e31b-489a-b1f4-bee4321fcc44';
     $pane = new stdClass();
+    $pane->pid = 'new-12019822-d7a2-4568-a6f2-b044b6b1744b';
+    $pane->panel = 'top';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array(
+      'plugins' => array(
+        0 => array(
+          'name' => 'role',
+          'settings' => array(
+            'rids' => array(
+              0 => 2,
+            ),
+          ),
+          'context' => 'logged-in-user',
+          'not' => TRUE,
+        ),
+      ),
+    );
+    $pane->configuration = array(
+      'admin_title' => '',
+      'title' => 'Γίνε κι εσύ μέλος στην εκπαιδευτική πλατφόρμα μας!',
+      'body' => '<p><a class="btn btn-warning" href="/student/register">Είμαι παιδί</a>&nbsp;<a class="btn btn-warning" href="/teacher/register">Είμαι ενήλικας</a></p>
+',
+      'format' => 'full_html',
+      'substitute' => TRUE,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array(
+      'css_id' => '',
+      'css_class' => 'row text-center',
+    );
+    $pane->extras = array();
+    $pane->position = 2;
+    $pane->locks = array();
+    $pane->uuid = '12019822-d7a2-4568-a6f2-b044b6b1744b';
+    $display->content['new-12019822-d7a2-4568-a6f2-b044b6b1744b'] = $pane;
+    $display->panels['top'][2] = 'new-12019822-d7a2-4568-a6f2-b044b6b1744b';
+    $pane = new stdClass();
     $pane->pid = 'new-6b769989-94b5-40cd-bfec-3cf0501eb67d';
     $pane->panel = 'top';
     $pane->type = 'views_panes';
@@ -127,11 +169,11 @@ function soe_panels_page_start_default_page_manager_pages() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 2;
+    $pane->position = 3;
     $pane->locks = array();
     $pane->uuid = '6b769989-94b5-40cd-bfec-3cf0501eb67d';
     $display->content['new-6b769989-94b5-40cd-bfec-3cf0501eb67d'] = $pane;
-    $display->panels['top'][2] = 'new-6b769989-94b5-40cd-bfec-3cf0501eb67d';
+    $display->panels['top'][3] = 'new-6b769989-94b5-40cd-bfec-3cf0501eb67d';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = 'new-1c83ba24-a52f-45aa-a85d-80f45bbc1189';
   $handler->conf['display'] = $display;
