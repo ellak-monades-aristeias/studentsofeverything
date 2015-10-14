@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the  feature.
+ */
+
+include_once 'soe_custom_content_panes_check_submitted_projects.features.inc';

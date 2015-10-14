@@ -1,0 +1,7 @@
+core = 7.x
+package = Custom Content Panes
+dependencies[] = ctools
+dependencies[] = ctools_custom_content
+features[ctools][] = ctools_custom_content:ctools_content:1
+features[ctools_custom_content][] = check_submitted_projects
+features[features_api][] = api:2
