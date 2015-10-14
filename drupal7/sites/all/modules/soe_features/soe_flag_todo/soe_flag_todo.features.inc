@@ -24,7 +24,7 @@ function soe_flag_todo_flag_default_flags() {
     'unflag_long' => '',
     'unflag_message' => 'Project removed from ToDo-List',
     'unflag_denied_text' => '',
-    'link_type' => 'toggle',
+    'link_type' => 'normal',
     'weight' => 0,
     'show_in_links' => array(
       'full' => 'full',
@@ -40,11 +40,11 @@ function soe_flag_todo_flag_default_flags() {
     'access_author' => '',
     'show_contextual_link' => 0,
     'i18n' => 1,
-    'api_version' => 3,
     'module' => 'soe_flag_todo',
     'locked' => array(
       0 => 'name',
     ),
+    'api_version' => 3,
   );
   return $flags;
 

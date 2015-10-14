@@ -38,6 +38,9 @@ function soe_ct_project_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_attachments',
+    'field_permissions' => array(
+      'type' => 0,
+    ),
     'indexes' => array(
       'fid' => array(
         0 => 'fid',
@@ -46,8 +49,9 @@ function soe_ct_project_field_default_field_bases() {
     'locked' => 0,
     'module' => 'file',
     'settings' => array(
-      'display_default' => 0,
-      'display_field' => 0,
+      'display_default' => 1,
+      'display_field' => 1,
+      'profile2_private' => FALSE,
       'uri_scheme' => 'public',
     ),
     'translatable' => 0,
@@ -61,6 +65,9 @@ function soe_ct_project_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_audio_files',
+    'field_permissions' => array(
+      'type' => 0,
+    ),
     'indexes' => array(
       'fid' => array(
         0 => 'fid',
@@ -71,6 +78,7 @@ function soe_ct_project_field_default_field_bases() {
     'settings' => array(
       'display_default' => 1,
       'display_field' => 1,
+      'profile2_private' => FALSE,
       'uri_scheme' => 'public',
     ),
     'translatable' => 0,
@@ -178,6 +186,9 @@ function soe_ct_project_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_instructions',
+    'field_permissions' => array(
+      'type' => 0,
+    ),
     'indexes' => array(
       'format' => array(
         0 => 'format',
@@ -185,7 +196,9 @@ function soe_ct_project_field_default_field_bases() {
     ),
     'locked' => 0,
     'module' => 'text',
-    'settings' => array(),
+    'settings' => array(
+      'profile2_private' => FALSE,
+    ),
     'translatable' => 0,
     'type' => 'text_long',
   );
@@ -197,6 +210,9 @@ function soe_ct_project_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_main_image',
+    'field_permissions' => array(
+      'type' => 0,
+    ),
     'indexes' => array(
       'fid' => array(
         0 => 'fid',
@@ -206,6 +222,7 @@ function soe_ct_project_field_default_field_bases() {
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
+      'profile2_private' => FALSE,
       'uri_scheme' => 'public',
     ),
     'translatable' => 0,
@@ -238,6 +255,9 @@ function soe_ct_project_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_other_images',
+    'field_permissions' => array(
+      'type' => 0,
+    ),
     'indexes' => array(
       'fid' => array(
         0 => 'fid',
@@ -247,6 +267,7 @@ function soe_ct_project_field_default_field_bases() {
     'module' => 'image',
     'settings' => array(
       'default_image' => 0,
+      'profile2_private' => FALSE,
       'uri_scheme' => 'public',
     ),
     'translatable' => 0,
@@ -323,7 +344,7 @@ function soe_ct_project_field_default_field_bases() {
         9 => '6-9',
         12 => '10-12',
         15 => '13-15',
-        99 => 'up to 99',
+        99 => '16 to 99',
       ),
       'allowed_values_function' => '',
     ),

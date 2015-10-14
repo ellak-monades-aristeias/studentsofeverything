@@ -17,6 +17,9 @@ function soe_user_fields_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_birthday',
+    'field_permissions' => array(
+      'type' => 1,
+    ),
     'indexes' => array(),
     'locked' => 0,
     'module' => 'date',
@@ -31,7 +34,7 @@ function soe_user_fields_field_default_field_bases() {
         'second' => 0,
         'year' => 'year',
       ),
-      'profile2_private' => FALSE,
+      'profile2_private' => 0,
       'timezone_db' => '',
       'todate' => '',
       'tz_handling' => 'none',
@@ -97,6 +100,9 @@ function soe_user_fields_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_organisation',
+    'field_permissions' => array(
+      'type' => 0,
+    ),
     'indexes' => array(
       'format' => array(
         0 => 'format',

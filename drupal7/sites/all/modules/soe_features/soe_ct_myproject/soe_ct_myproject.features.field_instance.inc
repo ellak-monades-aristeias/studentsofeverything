@@ -77,7 +77,7 @@ function soe_ct_myproject_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'file_directory' => '',
+      'file_directory' => 'myproject',
       'file_extensions' => 'png gif jpg jpeg',
       'image_field_caption' => 0,
       'max_filesize' => '',

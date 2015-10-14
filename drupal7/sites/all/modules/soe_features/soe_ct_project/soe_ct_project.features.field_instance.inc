@@ -165,9 +165,11 @@ function soe_ct_project_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'file',
-        'settings' => array(),
-        'type' => 'file_default',
+        'module' => 'file_entity',
+        'settings' => array(
+          'text' => 'Download [file:name]',
+        ),
+        'type' => 'file_download_link',
         'weight' => 10,
       ),
       'teaser' => array(
@@ -183,7 +185,7 @@ function soe_ct_project_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'description_field' => 0,
-      'file_directory' => 'public://docs',
+      'file_directory' => 'projects',
       'file_extensions' => 'txt pdf',
       'max_filesize' => '',
       'user_register_form' => FALSE,
@@ -225,7 +227,7 @@ function soe_ct_project_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'description_field' => 1,
-      'file_directory' => '',
+      'file_directory' => 'projects',
       'file_extensions' => 'mp3',
       'max_filesize' => '',
       'user_register_form' => FALSE,
@@ -308,7 +310,7 @@ function soe_ct_project_field_default_field_instances() {
     'label' => 'instructions',
     'required' => 1,
     'settings' => array(
-      'text_processing' => 0,
+      'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -352,7 +354,7 @@ function soe_ct_project_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'file_directory' => 'sites/default/files/projects/[current-user:uid]',
+      'file_directory' => 'sites/default/files/projects',
       'file_extensions' => 'png gif jpg jpeg',
       'image_field_caption' => 0,
       'max_filesize' => '',
@@ -443,7 +445,7 @@ function soe_ct_project_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 1,
       'default_image' => 0,
-      'file_directory' => '',
+      'file_directory' => 'projects',
       'file_extensions' => 'png gif jpg jpeg',
       'image_field_caption' => 1,
       'max_filesize' => '',
@@ -477,9 +479,9 @@ function soe_ct_project_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'list',
+        'module' => 'i18n_field',
         'settings' => array(),
-        'type' => 'list_default',
+        'type' => 'i18n_list_default',
         'weight' => 7,
       ),
       'teaser' => array(
@@ -520,9 +522,9 @@ function soe_ct_project_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'list',
+        'module' => 'i18n_field',
         'settings' => array(),
-        'type' => 'list_default',
+        'type' => 'i18n_list_default',
         'weight' => 12,
       ),
       'teaser' => array(
@@ -557,9 +559,9 @@ function soe_ct_project_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'list',
+        'module' => 'i18n_field',
         'settings' => array(),
-        'type' => 'list_default',
+        'type' => 'i18n_list_default',
         'weight' => 13,
       ),
       'teaser' => array(

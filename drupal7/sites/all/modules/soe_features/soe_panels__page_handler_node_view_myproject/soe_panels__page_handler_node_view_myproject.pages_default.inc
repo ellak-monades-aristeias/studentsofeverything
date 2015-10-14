@@ -23,7 +23,7 @@ function soe_panels__page_handler_node_view_myproject_default_page_manager_handl
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
-    'body_classes_to_add' => 'fluid-container',
+    'body_classes_to_add' => 'container',
     'css_id' => '',
     'css' => '',
     'contexts' => array(),
@@ -81,7 +81,7 @@ function soe_panels__page_handler_node_view_myproject_default_page_manager_handl
       'link' => 0,
       'markup' => 'h1',
       'id' => '',
-      'class' => 'row text-center',
+      'class' => 'row',
       'context' => 'argument_entity_id:node_1',
       'override_title' => 1,
       'override_title_text' => '',
@@ -93,7 +93,7 @@ function soe_panels__page_handler_node_view_myproject_default_page_manager_handl
     );
     $pane->css = array(
       'css_id' => '',
-      'css_class' => 'row text-center',
+      'css_class' => 'row',
     );
     $pane->extras = array();
     $pane->position = 0;
@@ -130,6 +130,54 @@ function soe_panels__page_handler_node_view_myproject_default_page_manager_handl
     $display->content['new-96556f18-4493-4c6b-9d93-9f337f5c2f35'] = $pane;
     $display->panels['middle'][1] = 'new-96556f18-4493-4c6b-9d93-9f337f5c2f35';
     $pane = new stdClass();
+    $pane->pid = 'new-7b4d6da3-a939-4597-84a0-73d6c843dbad';
+    $pane->panel = 'middle';
+    $pane->type = 'custom';
+    $pane->subtype = 'custom';
+    $pane->shown = TRUE;
+    $pane->access = array(
+      'plugins' => array(
+        0 => array(
+          'name' => 'compare_users',
+          'settings' => array(
+            'equality' => '1',
+          ),
+          'context' => array(
+            0 => 'relationship_entity_from_schema:uid-node-user_1',
+            1 => 'logged-in-user',
+          ),
+          'not' => FALSE,
+        ),
+      ),
+    );
+    $pane->configuration = array(
+      'admin_title' => 'my bagde',
+      'title' => '',
+      'body' => '<?php
+  print \'Κέρδισες ένα μετάλλιο!\';
+  if (!strcmp("%node:field_difficulty_level","Hard")) {
+    print \'<img typeof="foaf:Image" class="img-responsive" src="/sites/default/files/badges/badge-gold.png" width="120" alt="">\';
+  } else if (!strcmp("%node:field_difficulty_level","Medium")) {
+    print \'<img typeof="foaf:Image" class="img-responsive" src="/sites/default/files/badges/badge-silver.png" width="120" alt="">\';
+} else if (!strcmp("%node:field_difficulty_level","Easy"))  { 
+    print \'<img typeof="foaf:Image" class="img-responsive" src="/sites/default/files/badges/badge-bronze.png" width="120" alt="">\';
+}
+?>',
+      'format' => 'php_code',
+      'substitute' => 1,
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 2;
+    $pane->locks = array();
+    $pane->uuid = '7b4d6da3-a939-4597-84a0-73d6c843dbad';
+    $display->content['new-7b4d6da3-a939-4597-84a0-73d6c843dbad'] = $pane;
+    $display->panels['middle'][2] = 'new-7b4d6da3-a939-4597-84a0-73d6c843dbad';
+    $pane = new stdClass();
     $pane->pid = 'new-7b0deefb-fa7f-4bde-8ea3-11e6d7b6eaf4';
     $pane->panel = 'middle';
     $pane->type = 'entity_field';
@@ -160,11 +208,11 @@ function soe_panels__page_handler_node_view_myproject_default_page_manager_handl
       'css_class' => 'row text-center',
     );
     $pane->extras = array();
-    $pane->position = 2;
+    $pane->position = 3;
     $pane->locks = array();
     $pane->uuid = '7b0deefb-fa7f-4bde-8ea3-11e6d7b6eaf4';
     $display->content['new-7b0deefb-fa7f-4bde-8ea3-11e6d7b6eaf4'] = $pane;
-    $display->panels['middle'][2] = 'new-7b0deefb-fa7f-4bde-8ea3-11e6d7b6eaf4';
+    $display->panels['middle'][3] = 'new-7b0deefb-fa7f-4bde-8ea3-11e6d7b6eaf4';
     $pane = new stdClass();
     $pane->pid = 'new-d90d3c38-260c-41d1-8603-f76d08dd4fe5';
     $pane->panel = 'middle';
@@ -190,14 +238,14 @@ function soe_panels__page_handler_node_view_myproject_default_page_manager_handl
     );
     $pane->css = array(
       'css_id' => '',
-      'css_class' => 'row text-center',
+      'css_class' => 'row',
     );
     $pane->extras = array();
-    $pane->position = 3;
+    $pane->position = 4;
     $pane->locks = array();
     $pane->uuid = 'd90d3c38-260c-41d1-8603-f76d08dd4fe5';
     $display->content['new-d90d3c38-260c-41d1-8603-f76d08dd4fe5'] = $pane;
-    $display->panels['middle'][3] = 'new-d90d3c38-260c-41d1-8603-f76d08dd4fe5';
+    $display->panels['middle'][4] = 'new-d90d3c38-260c-41d1-8603-f76d08dd4fe5';
     $pane = new stdClass();
     $pane->pid = 'new-e8a3a5f4-05d0-4368-a26a-ada56e28e88f';
     $pane->panel = 'middle';
@@ -223,14 +271,14 @@ function soe_panels__page_handler_node_view_myproject_default_page_manager_handl
     );
     $pane->css = array(
       'css_id' => '',
-      'css_class' => 'row text-center',
+      'css_class' => 'row',
     );
     $pane->extras = array();
-    $pane->position = 4;
+    $pane->position = 5;
     $pane->locks = array();
     $pane->uuid = 'e8a3a5f4-05d0-4368-a26a-ada56e28e88f';
     $display->content['new-e8a3a5f4-05d0-4368-a26a-ada56e28e88f'] = $pane;
-    $display->panels['middle'][4] = 'new-e8a3a5f4-05d0-4368-a26a-ada56e28e88f';
+    $display->panels['middle'][5] = 'new-e8a3a5f4-05d0-4368-a26a-ada56e28e88f';
     $pane = new stdClass();
     $pane->pid = 'new-e195b4be-d975-4634-8d51-53d3bdcb85d2';
     $pane->panel = 'middle';
@@ -256,14 +304,14 @@ function soe_panels__page_handler_node_view_myproject_default_page_manager_handl
     );
     $pane->css = array(
       'css_id' => '',
-      'css_class' => 'row text-center',
+      'css_class' => 'row',
     );
     $pane->extras = array();
-    $pane->position = 5;
+    $pane->position = 6;
     $pane->locks = array();
     $pane->uuid = 'e195b4be-d975-4634-8d51-53d3bdcb85d2';
     $display->content['new-e195b4be-d975-4634-8d51-53d3bdcb85d2'] = $pane;
-    $display->panels['middle'][5] = 'new-e195b4be-d975-4634-8d51-53d3bdcb85d2';
+    $display->panels['middle'][6] = 'new-e195b4be-d975-4634-8d51-53d3bdcb85d2';
     $pane = new stdClass();
     $pane->pid = 'new-93d7bf92-4895-4932-9bf2-79319da43042';
     $pane->panel = 'middle';
@@ -289,14 +337,14 @@ function soe_panels__page_handler_node_view_myproject_default_page_manager_handl
     );
     $pane->css = array(
       'css_id' => '',
-      'css_class' => 'row text-center',
+      'css_class' => 'row',
     );
     $pane->extras = array();
-    $pane->position = 6;
+    $pane->position = 7;
     $pane->locks = array();
     $pane->uuid = '93d7bf92-4895-4932-9bf2-79319da43042';
     $display->content['new-93d7bf92-4895-4932-9bf2-79319da43042'] = $pane;
-    $display->panels['middle'][6] = 'new-93d7bf92-4895-4932-9bf2-79319da43042';
+    $display->panels['middle'][7] = 'new-93d7bf92-4895-4932-9bf2-79319da43042';
     $pane = new stdClass();
     $pane->pid = 'new-abb4291f-bb39-4f2c-9ed3-bb340d4647de';
     $pane->panel = 'middle';
@@ -322,14 +370,14 @@ function soe_panels__page_handler_node_view_myproject_default_page_manager_handl
     );
     $pane->css = array(
       'css_id' => '',
-      'css_class' => 'row text-center',
+      'css_class' => 'row',
     );
     $pane->extras = array();
-    $pane->position = 7;
+    $pane->position = 8;
     $pane->locks = array();
     $pane->uuid = 'abb4291f-bb39-4f2c-9ed3-bb340d4647de';
     $display->content['new-abb4291f-bb39-4f2c-9ed3-bb340d4647de'] = $pane;
-    $display->panels['middle'][7] = 'new-abb4291f-bb39-4f2c-9ed3-bb340d4647de';
+    $display->panels['middle'][8] = 'new-abb4291f-bb39-4f2c-9ed3-bb340d4647de';
     $pane = new stdClass();
     $pane->pid = 'new-981a0900-9865-4d3f-a8fe-2a56c604098e';
     $pane->panel = 'middle';
@@ -355,14 +403,14 @@ function soe_panels__page_handler_node_view_myproject_default_page_manager_handl
     );
     $pane->css = array(
       'css_id' => '',
-      'css_class' => 'row text-center',
+      'css_class' => 'row',
     );
     $pane->extras = array();
-    $pane->position = 8;
+    $pane->position = 9;
     $pane->locks = array();
     $pane->uuid = '981a0900-9865-4d3f-a8fe-2a56c604098e';
     $display->content['new-981a0900-9865-4d3f-a8fe-2a56c604098e'] = $pane;
-    $display->panels['middle'][8] = 'new-981a0900-9865-4d3f-a8fe-2a56c604098e';
+    $display->panels['middle'][9] = 'new-981a0900-9865-4d3f-a8fe-2a56c604098e';
     $pane = new stdClass();
     $pane->pid = 'new-6efad681-d916-4385-8854-4d03d1fc95ba';
     $pane->panel = 'middle';
@@ -392,14 +440,14 @@ function soe_panels__page_handler_node_view_myproject_default_page_manager_handl
     );
     $pane->css = array(
       'css_id' => '',
-      'css_class' => 'row text-center',
+      'css_class' => 'row',
     );
     $pane->extras = array();
-    $pane->position = 9;
+    $pane->position = 10;
     $pane->locks = array();
     $pane->uuid = '6efad681-d916-4385-8854-4d03d1fc95ba';
     $display->content['new-6efad681-d916-4385-8854-4d03d1fc95ba'] = $pane;
-    $display->panels['middle'][9] = 'new-6efad681-d916-4385-8854-4d03d1fc95ba';
+    $display->panels['middle'][10] = 'new-6efad681-d916-4385-8854-4d03d1fc95ba';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
