@@ -1,0 +1,28 @@
+<?php
+function soe_hide_fields_form_alter(&$form, &$form_state) {
+
+//print_r($form['user_login_form']);
+    if (arg(0) == 'start' && arg(1) == '') {
+      // print '<pre>';
+      // print_r($form['links']['#markup']);
+      $form['links']['#markup']='<ul><li><a href="/user/password" title="Ανάκτηση νέου συνθηματικού εισόδου μέσω e-mail.">Ανάκτηση νέου συνθηματικού εισόδου</a></li></ul>';
+      // print_r($form['links']['#markup']);
+      // print '</pre>';
+    }
+   $user_is_editor = FALSE;
+
+   global $user;
+ 
+   if (is_array($user->roles) && in_array('editor', array_values($user->roles))) {
+     $user_is_editor = TRUE;
+   } 
+   if ( !$user_is_editor && arg(0) == 'node' && arg(2) == 'edit') {
+      // print '<pre>';
+      // print_r($form['field_state']['und']['#options']);
+      // print '</pre>';
+      unset($form['field_state']['und']['#options'][3]);
+      // print '<pre>';
+      // print_r($form['field_state']['und']['#options']);
+      // print '</pre>';
+  }
+}
