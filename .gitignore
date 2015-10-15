@@ -1,6 +1,7 @@
 # ignore all subfolders in drupal7
 drupal7/*
 !drupal7/soe_drupal.make
+!drupal7/.gitignore
 
 # follow specific subfolders
 !drupal7/sites
@@ -16,5 +17,5 @@ drupal7/sites/all/modules/*
 
 !drupal7/sites/all/themes
 drupal7/sites/all/themes/*
-drupal7/sites/all/themes/soe
+drupal7/sites/all/themes/students_theme
 
