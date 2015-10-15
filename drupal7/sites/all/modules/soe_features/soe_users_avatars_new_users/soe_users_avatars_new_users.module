@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_users_avatars_new_users feature.
+ */
+
+include_once 'soe_users_avatars_new_users.features.inc';
