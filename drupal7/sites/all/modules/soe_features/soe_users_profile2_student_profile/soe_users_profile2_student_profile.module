@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_users_profile2_student_profile feature.
+ */
+
+include_once 'soe_users_profile2_student_profile.features.inc';
