@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_CT_project_file_fields feature.
+ */
+
+include_once 'soe_ct_project_file_fields.features.inc';

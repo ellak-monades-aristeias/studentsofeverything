@@ -1,0 +1,10 @@
+name = soe_users_avatars_new_users
+core = 7.x
+package = Users
+dependencies[] = views
+dependencies[] = views_bootstrap
+dependencies[] = views_content
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = avatars_new_users
+features_exclude[dependencies][ctools] = ctools

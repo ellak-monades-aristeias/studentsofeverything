@@ -1,0 +1,14 @@
+name = soe_users_profile2_student_profile
+core = 7.x
+package = Users
+dependencies[] = date
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = list
+dependencies[] = options
+dependencies[] = profile2
+dependencies[] = soe_user_fields
+features[features_api][] = api:2
+features[field_instance][] = profile2-student-field_birthday
+features[field_instance][] = profile2-student-field_parents_approval
+features[profile2_type][] = student

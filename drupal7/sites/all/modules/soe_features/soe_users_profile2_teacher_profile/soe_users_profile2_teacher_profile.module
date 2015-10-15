@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_users_profile2_teacher_profile feature.
+ */
+
+include_once 'soe_users_profile2_teacher_profile.features.inc';
