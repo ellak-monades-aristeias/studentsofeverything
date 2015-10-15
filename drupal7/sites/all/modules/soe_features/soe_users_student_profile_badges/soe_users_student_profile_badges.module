@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_users_student_profile_badges feature.
+ */
+
+include_once 'soe_users_student_profile_badges.features.inc';
