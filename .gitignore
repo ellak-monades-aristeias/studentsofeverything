@@ -17,5 +17,5 @@ drupal7/sites/all/modules/*
 
 !drupal7/sites/all/themes
 drupal7/sites/all/themes/*
-drupal7/sites/all/themes/students_theme
+!drupal7/sites/all/themes/students_theme
 
