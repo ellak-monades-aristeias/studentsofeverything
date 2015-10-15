@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the soe_panels_ page_handler_user_view__editor-profile feature.
+ */
+
+include_once 'soe_panels__page_handler_user_view__editor_profile.features.inc';
