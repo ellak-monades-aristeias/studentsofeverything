@@ -34,8 +34,10 @@ Online πλατφόρμα που περιλαμβάνει α) ψηφιακό α�
 **Πίνακας Παραδοτέων του Students of Everything**
 Students of Everything Platform (online σε alpha έκδοση)
 http://www.studentsofeverything.cc
+
 GitHub Repository
 https://github.com/ellak-monades-aristeias/studentsofeverything
+
 Interface Design (για beta version)
 https://invis.io/7X4J4EDP9
 
