@@ -24,20 +24,19 @@ Online πλατφόρμα που περιλαμβάνει α) ψηφιακό α�
 **Εγκατάσταση**
 Δεν είναι απαραίτητη. Η πλατοφόρμα λειτουργεί online από οποιοδήποτε web-browser
 
-
 **Χρονοδιάγραμμα - Wiki**
 Η Alpha stage της πλατοφόρμας είναι προγραμματισμένη να ολοκληρωθεί σε 3 εβδομάδες, από τις 28/09/2015-15/10/2015 και μπορείτε να δείτε την εβδομαδιαία πρόοδό της στο Wiki.
 
 **License/Attributions**
 Η αδειοδότηση του κώδικα της πλατφόρμας γίνεται με άδεια EUPL v1.1 και του περιεχομένου με CC-BY-SA 4.0.
 
-**Πίνακας Παραδοτέων του Students of Everything**
-Students of Everything Platform (online σε alpha έκδοση)
-http://www.studentsofeverything.cc
+**Πίνακας Παραδοτέων του Students of Everything**  
+Students of Everything Platform (online σε alpha έκδοση)  
+http://www.studentsofeverything.cc  
 
-GitHub Repository
-https://github.com/ellak-monades-aristeias/studentsofeverything
+GitHub Repository  
+https://github.com/ellak-monades-aristeias/studentsofeverything  
 
-Interface Design (για beta version)
+Interface Design (για beta version)  
 https://invis.io/7X4J4EDP9
 
