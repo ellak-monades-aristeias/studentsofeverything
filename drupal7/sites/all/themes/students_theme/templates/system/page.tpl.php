@@ -177,5 +177,9 @@
     <div class="col-sm-4"><span class="glyphicon glyphicon-earphone"></span><span> +30 210 3245 5332</span></div>
     <div class="col-sm-4"><span class="glyphicon glyphicon-envelope"></span><span> info@studentsofeverything.cc</span></div>
   </div>
+  <div class="container">
+    <p class="col-md-4 col-xs-12"><a href="https://ma.ellak.gr"><img src="/sites/default/files/el-lak.png" style="float:left;width:250px;margin-right:25px;" /></a></p>
+    <p class="col-md-8 col-xs-12">Η πλατφόρμα Students of Everything χρηματοδοτείται από το έργο "Ηλεκτρονικές Υπηρεσίες για την Ανάπτυξη και Διάδοση του Ανοιχτού Λογισμικού” και είναι&nbsp;open source. Μπορείτε να βρείτε τον πηγαίο κώδικα στο <a href="//github.com/ellak-monades-aristeias/studentsofeverything"> GitHub</a>.</p>
+  </div>
 </div>
 
