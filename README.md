@@ -10,7 +10,7 @@ Online πλατφόρμα που περιλαμβάνει α) ψηφιακό α�
 
 Ταυτόχρονα, επιτρέπει την εγγραφή μαθητών με διαφορετικό τύπο λογαριασμού, για λόγους προστασίας της ταυτότητάς τους. Η πλατφόρμα αξιοποιεί εφαρμογή τύπου gamification system για να ενισχύσει τη συμμετοχή των μαθητών στις δράσεις. Οι μαθητές ολοκληρώνουν μια δράση που έχουν επιλέξει ανεβάζοντας φωτογραφικό υλικό των αποτελεσμάτων της. Με την ολοκλήρωση της δράσης αποκτούν το αντίστοιχο αυτοκόλλητο (badge). Τα αυτοκόλλητα χρησιμεύουν στο να αναδείξουν τις προσωπικές ικανότητες και δεξιότητες του κάθε παιδιού. Τέλος, το SoE στοχεύει στον ευρύ διαμοιρασμό του εκπαιδευτικού υλικού και όχι μοναχά στην ανάπτυξη μιας κλειστής μικροκοινότητας.
 
-**Students of Everything Short Description (Engish)**  
+**Students of Everything Short Description (English)**  
 SoE is an online repository of short educational projects (weekend projects), designed for children aged six to fifteen. New projects may be added by parents, school teachers and educational institutes. Projects are divided in three main categories: Making, Storytelling and Cognitive Games. SoE rewards students via a gamification system for their engagement to the platoform, awarding them with badges upon successful completion of a project.
 
 ##Κοινότητες Χρηστών - Προγραμματιστών (Developers)##
