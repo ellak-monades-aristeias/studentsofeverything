@@ -1,7 +1,7 @@
 Students of Everything
 ======================
 
-##Περιγραφή και λειτουργικότητα (Ελληνικά - English)##
+##Περιγραφή και λειτουργικότητα (GR, EN)##
 
 **Σύντομη περιγραφή του Students of Everything**  
 Online πλατφόρμα που περιλαμβάνει α) ψηφιακό αποθετήριο για εκπαιδευτικές δράσεις μικρής κλίμακας για μαθητές Δημοτικού και Γυμνασίου και β) gamification system για την ενεργή συμμετοχή των μαθητών στην πλατφόρμα.
@@ -13,7 +13,7 @@ Online πλατφόρμα που περιλαμβάνει α) ψηφιακό α�
 
 Ταυτόχρονα, επιτρέπει την εγγραφή μαθητών με διαφορετικό τύπο λογαριασμού, για λόγους προστασίας της ταυτότητάς τους. Η πλατφόρμα αξιοποιεί εφαρμογή τύπου gamification system για να ενισχύσει τη συμμετοχή των μαθητών στις δράσεις. Οι μαθητές ολοκληρώνουν μια δράση που έχουν επιλέξει ανεβάζοντας φωτογραφικό υλικό των αποτελεσμάτων της. Με την ολοκλήρωση της δράσης αποκτούν το αντίστοιχο αυτοκόλλητο (badge). Τα αυτοκόλλητα χρησιμεύουν στο να αναδείξουν τις προσωπικές ικανότητες και δεξιότητες του κάθε παιδιού. Τέλος, το SoE στοχεύει στον ευρύ διαμοιρασμό του εκπαιδευτικού υλικού και όχι μοναχά στην ανάπτυξη μιας κλειστής μικροκοινότητας.
 
-**Students of Everything Short Description (English)**  
+**Students of Everything Short Description (EN)**  
 SoE is an online repository of short educational projects (weekend projects), designed for children aged six to fifteen. New projects may be added by parents, school teachers and educational institutes. Projects are divided in three main categories: Making, Storytelling and Cognitive Games. SoE rewards students via a gamification system for their engagement to the platoform, awarding them with badges upon successful completion of a project.
 
 ##Κοινότητες Χρηστών - Προγραμματιστών##
