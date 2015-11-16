@@ -34,13 +34,13 @@ SoE is an online repository of short educational projects (weekend projects), de
 Αναλυτικές οδηγίες για κάθε τύπο χρήστη της πλατφόρμας έχουν αναρτηθεί στο wiki, σε μορφή συχνών ερωτήσεων και απαντήσεων. Η μορφοποίηση αυτή επιλέχθηκε ώστε να είναι πιο φιλική προς τους τελικούς χρήστες. Επίσης είναι διαθέσιμη online εδώ: http://studentsofeverything.cc/FAQs
 
 **Εγκατάσταση**  
-Δεν είναι απαραίτητη. Η πλατοφόρμα λειτουργεί online από οποιοδήποτε web-browser
+Δεν είναι απαραίτητη. Η πλατοφόρμα λειτουργεί online από οποιοδήποτε web-browser.
 
 **Χρονοδιάγραμμα - Wiki**  
 Η Alpha stage της πλατοφόρμας είναι προγραμματισμένη να ολοκληρωθεί σε 3 εβδομάδες, από τις 28/09/2015-15/10/2015 και μπορείτε να δείτε την εβδομαδιαία πρόοδό της στο Wiki.
 
 **Issues**  
-Στα issues της πλατφόρμας οι developers μπορούν να βρουν προβλήματα προς επίλυση που προκύπτουν κατά την υλοποίηση του Students of Everything
+Στα issues της πλατφόρμας οι developers μπορούν να βρουν προβλήματα προς επίλυση που προκύπτουν κατά την υλοποίηση του Students of Everything.
 
 **License/Attributions**  
 Η αδειοδότηση του κώδικα της πλατφόρμας γίνεται με άδεια EUPL v1.1 και του περιεχομένου με CC-BY-SA 4.0.
@@ -52,5 +52,5 @@ http://www.studentsofeverything.cc
 GitHub Repository  
 https://github.com/ellak-monades-aristeias/studentsofeverything  
 
-Interface Design (για beta version)  
+Interface Design (για την έκδοση beta)  
 https://invis.io/7X4J4EDP9
