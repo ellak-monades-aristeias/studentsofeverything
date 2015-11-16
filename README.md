@@ -16,12 +16,12 @@ Online πλατφόρμα που περιλαμβάνει α) ψηφιακό α�
 **Students of Everything Short Description (EN)**  
 SoE is an online repository of short educational projects (weekend projects), designed for children aged six to fifteen. New projects may be added by parents, school teachers and educational institutes. Projects are divided in three main categories: Making, Storytelling and Cognitive Games. SoE rewards students via a gamification system for their engagement to the platoform, awarding them with badges upon successful completion of a project.
 
-##Κοινότητες Χρηστών - Προγραμματιστών##
+##Κοινότητες χρηστών - προγραμματιστών##
 
 **Σε ποιούς απευθύνεται η πλατφόρμα Students of Everything**  
 Σε μαθητές Δημοτικού και Γυμνασίου, καθώς και σε γονείς, εκπαιδευτικούς κάθε βαθμίδας και σε ανεξάρτητους φορείς που δραστηριοποιούνται στην εκπαίδευση.
 
-**Κοινότητες προγραμματιστών που μπορούν να αξιοποιήσουν το SoE και τον πηγαίο κώδικα**  
+**Κοινότητες προγραμματιστών που μπορούν να αξιοποιήσουν το SoE**  
 Προγραμματιστές που εργάζονται σε τομείς που αφορούν την εκπαίδευση (κάθε βαθμίδας), online developers που αναπτύσσουν ψηφιακά αποθετήρια ή gamification systems. Αναλυτικότερα η ανάπτυξη της πλατφόρμας αξιοποιεί:
 
 - **Τεχνολογία**: Drupal
@@ -30,7 +30,7 @@ SoE is an online repository of short educational projects (weekend projects), de
 
 ##Χρήσιμες πληροφορίες#
 
-**Αναλυτικές οδηγίες για τελικούς χρήστες**  
+**Αναλυτικές οδηγίες για τους τελικούς χρήστες**  
 Αναλυτικές οδηγίες για κάθε τύπο χρήστη της πλατφόρμας έχουν αναρτηθεί στο wiki, σε μορφή συχνών ερωτήσεων και απαντήσεων. Η μορφοποίηση αυτή επιλέχθηκε ώστε να είναι πιο φιλική προς τους τελικούς χρήστες. Επίσης είναι διαθέσιμη online εδώ: http://studentsofeverything.cc/FAQs
 
 **Εγκατάσταση**  
@@ -45,7 +45,7 @@ SoE is an online repository of short educational projects (weekend projects), de
 **License/Attributions**  
 Η αδειοδότηση του κώδικα της πλατφόρμας γίνεται με άδεια EUPL v1.1 και του περιεχομένου με CC-BY-SA 4.0.
 
-**Πίνακας Παραδοτέων του Students of Everything**  
+**Πίνακας παραδοτέων του Students of Everything**  
 Students of Everything Platform (online σε alpha έκδοση)  
 http://www.studentsofeverything.cc  
 
