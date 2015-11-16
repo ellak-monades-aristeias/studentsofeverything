@@ -1,9 +1,10 @@
 Students of Everything
 ======================
-**Σύντομη περιγραφή του Students of Everything**  
-Online πλατφόρμα που περιλαμβάνει α) ψηφιακό αποθετήριο για εκπαιδευτικές δράσεις μικρής κλίμακας (weekend projects) για μαθητές Δημοτικού και Γυμνασίου και β) gamification system για την ενεργή συμμετοχή των μαθητών στην πλατφόρμα.
+**Σύντομη περιγραφή του Students of Everything (Ελληνικά)**  
+Online πλατφόρμα που περιλαμβάνει α) ψηφιακό αποθετήριο για εκπαιδευτικές δράσεις μικρής κλίμακας για μαθητές Δημοτικού και Γυμνασίου και β) gamification system για την ενεργή συμμετοχή των μαθητών στην πλατφόρμα.
 
-**Students of Everything Short Description**
+**Students of Everything Short Description (Engish)**
+SoE is an online repository of short educational projects (weekend projects), designed for children aged six to fifteen. New projects may be added by parents, school teachers and educational institutes. Projects are divided in three main categories: Making, Storytelling and Cognitive Games. SoE rewards students via a gamification system for their engagement to the platoform, awarding them with badges upon successful completion of a project.
 
 **Περιγραφή της λειτουργικότητας του αποθετηρίου**  
 Η πλατφόρμα Students of Everything δεν στοχεύει μόνο στη συλλογή και την ανοικτή διάθεση των εκπαιδευτικών δράσεων. Επιτρέπει σε εκπαιδευτικούς κάθε βαθμίδας, γονείς και και ανεξάρτητους φορείς που δραστηριοποιούνται στην εκπαίδευση να εγγραφούν και να ανεβάσουν τις εκπαιδευτικές δράσεις που έχουν αναπτύξει. Oι τελευταίες αξιολογούνται βαθμολογικά από το κοινό.
@@ -18,14 +19,11 @@ Online πλατφόρμα που περιλαμβάνει α) ψηφιακό α�
 Σε μαθητές Δημοτικού και Γυμνασίου, καθώς και σε γονείς, εκπαιδευτικούς κάθε βαθμίδας και σε ανεξάρτητους φορείς που δραστηριοποιούνται στην εκπαίδευση.
 
 **Κοινότητες Προγραμματιστών που μπορούν να αξιοποιήσουν το SoE και τον πηγαίο κώδικα**  
-Προγραμματιστές που εργάζονται σε τομείς που αφορούν την εκπαίδευση (κάθε βαθμίδας), online developers που αναπτύσσουν ψηφιακά αποθετήρια ή gamification systems.
+Προγραμματιστές που εργάζονται σε τομείς που αφορούν την εκπαίδευση (κάθε βαθμίδας), online developers που αναπτύσσουν ψηφιακά αποθετήρια ή gamification systems. Αναλυτικότερα η ανάπτυξη της πλατφόρμας αξιοποιεί:
 
 - **Τεχνολογία**: Drupal
 - **Γλώσσες**: PHP
 - **Βιβλιοθήκες**: jquery, bootstrap
-
-**Issues**  
-Στα issues της πλατφόρμας οι developers μπορούν να βρουν προβλήματα προς επίλυση που προκύπτουν κατά την υλοποίηση του Students of Everything
 
 ##Οδηγίες - Πληροφορίες για την πλατφόρμα##
 
@@ -37,6 +35,9 @@ Online πλατφόρμα που περιλαμβάνει α) ψηφιακό α�
 
 **Χρονοδιάγραμμα - Wiki**  
 Η Alpha stage της πλατοφόρμας είναι προγραμματισμένη να ολοκληρωθεί σε 3 εβδομάδες, από τις 28/09/2015-15/10/2015 και μπορείτε να δείτε την εβδομαδιαία πρόοδό της στο Wiki.
+
+**Issues**  
+Στα issues της πλατφόρμας οι developers μπορούν να βρουν προβλήματα προς επίλυση που προκύπτουν κατά την υλοποίηση του Students of Everything
 
 **License/Attributions**  
 Η αδειοδότηση του κώδικα της πλατφόρμας γίνεται με άδεια EUPL v1.1 και του περιεχομένου με CC-BY-SA 4.0.
