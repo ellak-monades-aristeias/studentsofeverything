@@ -1,6 +1,6 @@
 Students of Everything
 ======================
-**Σύντομη περιγραφή του Students of Everything (Ελληνικά)**  
+**Σύντομη περιγραφή του Students of Everything**  
 Online πλατφόρμα που περιλαμβάνει α) ψηφιακό αποθετήριο για εκπαιδευτικές δράσεις μικρής κλίμακας για μαθητές Δημοτικού και Γυμνασίου και β) gamification system για την ενεργή συμμετοχή των μαθητών στην πλατφόρμα.
 
 **Students of Everything Short Description (Engish)**
